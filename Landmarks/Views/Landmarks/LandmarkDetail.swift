@@ -40,7 +40,7 @@ struct LandmarkDetail: View {
                     .font(.title2)
                 Text(landmark.description)
             }
-            .padding()
+            .padding(8)
         }
         .navigationTitle(landmark.name)
         .navigationBarTitleDisplayMode(.inline)
