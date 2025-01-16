@@ -77,6 +77,13 @@
 			);
 			target = 896B99FB2D3879F200FD9D4B /* MacLandmarks */;
 		};
+		89AE12142D391D570064258A /* Exceptions for "MacLandmarks" folder in "Landmarks" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				LandmarkCommands.swift,
+			);
+			target = 89EFEB1D2D1059B700B502F3 /* Landmarks */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -87,6 +94,9 @@
 		};
 		896B99FD2D3879F200FD9D4B /* MacLandmarks */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				89AE12142D391D570064258A /* Exceptions for "MacLandmarks" folder in "Landmarks" target */,
+			);
 			path = MacLandmarks;
 			sourceTree = "<group>";
 		};
